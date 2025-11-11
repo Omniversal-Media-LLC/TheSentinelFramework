@@ -1,0 +1,6 @@
+# Ignore everything except sentinel-framework
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/sentinel-framework/
