@@ -1,0 +1,12 @@
+AMAZON COMPLIANCE RISK OVERVIEW
+
+Possible Violations:
+- Gross Negligence
+- Federal Privacy Violations (FCRA, HIPAA, CCPA)
+- Enabling Identity Theft (via known compromised delivery address)
+- Accessory to Criminal Fraud (via continued mail routing despite warnings)
+
+Recommendations:
+- Lock employee’s corrected mailing address at all system levels.
+- Engage Amazon Legal immediately.
+- Launch internal audit into employee data routing policies and system overrides.

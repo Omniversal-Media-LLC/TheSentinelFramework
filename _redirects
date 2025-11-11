@@ -1,0 +1,31 @@
+# Cloudflare Pages redirects for Sentinel Framework
+
+# Handle missing file extensions
+/about /about.html 200
+/timeline /timeline.html 200
+/gallery /gallery.html 200
+/manifesto /manifesto.html 200
+/contact /contact.html 200
+/narrative /narrative.html 200
+/ethics-packet /ethics-packet.html 200
+/precedent /precedent.html 200
+/evidence-index /evidence-index.html 200
+/regulatory-dossier /regulatory-dossier.html 200
+/policy-request /policy-request.html 200
+/shutdown-timing /shutdown-timing.html 200
+/autonomous-expansion /autonomous-expansion.html 200
+
+# Documentation redirects
+/docs/overview /docs/overview.html 200
+/docs/everlightos /docs/everlightos.html 200
+/docs/lattice /docs/lattice.html 200
+/docs/sphinxguardian /docs/sphinxguardian.html 200
+
+# Evidence redirects
+/evidence/* /evidence/:splat 200
+
+# Regulatory redirects
+/regulatory/* /regulatory/:splat 200
+
+# Fallback to index for any unmatched routes (removed to prevent infinite loop)
+# /* /index.html 200

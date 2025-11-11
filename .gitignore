@@ -1,6 +1,28 @@
-# Ignore everything except sentinel-framework
-/*
-!/.gitignore
-!/README.md
-!/LICENSE
-!/sentinel-framework/
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor / IDE configs
+.idea/
+.vscode/
+*.iml
+
+# Swap / temp files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Build / cache (if you ever add tooling)
+node_modules/
+dist/
+build/
+.cache/
+.tmp/
+
+# Python cache (if you drop any scripts in)
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Access - Sentinel Framework</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="Sentinel Framework">
+                <h1>Sentinel Framework</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <div class="login-container">
+                <h1>🔐 Secure Access Portal</h1>
+                
+                <div class="login-form">
+                    <h2>Access Protected Downloads</h2>
+                    <form id="loginForm">
+                        <div class="form-group">
+                            <label for="accessCode">Access Code:</label>
+                            <input type="password" id="accessCode" name="accessCode" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email (for notifications):</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <button type="submit" class="btn primary">🛡️ Access Framework</button>
+                    </form>
+                </div>
+
+                <div class="access-levels">
+                    <h3>Access Levels</h3>
+                    <div class="level-grid">
+                        <div class="access-level">
+                            <h4>📋 Public Access</h4>
+                            <p>Timeline, evidence gallery, documentation</p>
+                            <span class="status available">Available</span>
+                        </div>
+                        <div class="access-level">
+                            <h4>📁 Protected Downloads</h4>
+                            <p>Master chronology, OSHA packages, full evidence archive</p>
+                            <span class="status protected">Requires Access Code</span>
+                        </div>
+                        <div class="access-level">
+                            <h4>🔒 Regulatory Submissions</h4>
+                            <p>Legal packets, regulatory dossiers, compliance documentation</p>
+                            <span class="status restricted">Restricted Access</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="notification-setup">
+                    <h3>📱 Mobile Notifications</h3>
+                    <p>Enable push notifications to receive updates on:</p>
+                    <ul>
+                        <li>New evidence uploads</li>
+                        <li>Regulatory submission updates</li>
+                        <li>Framework expansion notifications</li>
+                        <li>Legal precedent developments</li>
+                    </ul>
+                    <button id="enableNotifications" class="btn secondary">🔔 Enable Notifications</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Omniversal Media, LLC. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/js/login.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
