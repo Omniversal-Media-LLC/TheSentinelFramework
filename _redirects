@@ -26,6 +26,3 @@
 
 # Regulatory redirects
 /regulatory/* /regulatory/:splat 200
-
-# Fallback to index for any unmatched routes (removed to prevent infinite loop)
-# /* /index.html 200
