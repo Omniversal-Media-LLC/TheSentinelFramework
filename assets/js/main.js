@@ -13,6 +13,13 @@ function initializeSentinel() {
     console.log('⚡ EverLightOS quantum substrata stabilized');
     console.log('🔮 SphinxGuardian protocols active');
 
+    // Register service worker
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+            .then(registration => console.log('SW registered:', registration))
+            .catch(error => console.log('SW registration failed:', error));
+    }
+
     // Add loading animation
     document.body.classList.add('loaded');
 }

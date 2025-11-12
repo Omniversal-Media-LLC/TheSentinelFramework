@@ -26,3 +26,6 @@
 
 # Regulatory redirects
 /regulatory/* /regulatory/:splat 200
+
+# 404 fallback - must be last
+/* /404.html 404
