@@ -21,11 +21,5 @@
 /docs/lattice /docs/lattice.html 200
 /docs/sphinxguardian /docs/sphinxguardian.html 200
 
-# Evidence redirects
-/evidence/* /evidence/:splat 200
-
-# Regulatory redirects
-/regulatory/* /regulatory/:splat 200
-
 # 404 fallback - must be last
 /* /404.html 404
