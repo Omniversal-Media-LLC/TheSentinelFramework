@@ -1,0 +1,36 @@
+GET
+https://thesentinelframework.com/
+[HTTP/2 200  286ms]
+
+GET
+https://thesentinelframework.com/assets/css/style.css
+[HTTP/3 200  0ms]
+
+content: normal start event processing for mhwif7c1.zvl (0 to run) content.js:79:386
+GET
+https://thesentinelframework.com/assets/js/main.js
+[HTTP/3 200  0ms]
+
+Ruleset ignored due to bad selector. style.css:479:27
+GET
+https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015
+CSP
+
+Content-Security-Policy: The page’s settings blocked a script (script-src-elem) at https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015 from being executed because it violates the following directive: “script-src 'self' 'unsafe-inline'” thesentinelframework.com
+🛡️ Sentinel Framework initialized main.js:12:13
+⚡ EverLightOS quantum substrata stabilized main.js:13:13
+🔮 SphinxGuardian protocols active main.js:14:13
+content: DOMContentLoaded content.js:79:72
+content: load content.js:79:166
+GET
+https://thesentinelframework.com/assets/img/favicon.png
+[HTTP/3 200  0ms]
+
+GET
+https://thesentinelframework.com/favicon.svg
+[HTTP/3 200  0ms]
+
+GET
+https://thesentinelframework.com/manifest.json
+[HTTP/2 200  294ms]
+
