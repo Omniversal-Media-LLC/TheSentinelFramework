@@ -1,0 +1,8 @@
+TIMELINE OF EVENTS
+
+- July 19, 2025: Ethan Womack notifies Amazon representative Tori about the compromised address issue.
+- July 21, 2025: Issue is raised again in Slack with Jon; escalation is deflected.
+- July 22, 2025: Employee reiterates risk and receives delayed acknowledgment from Tori, who admits the ticket system was always available.
+
+Summary:
+The employee attempted to solve the issue through internal processes. Both representatives failed to act on warnings until public pressure was applied. Screenshots confirm systemic disregard for risk warnings.
